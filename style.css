@@ -1,0 +1,681 @@
+@font-face {
+    font-family: myself;
+    src: url("");
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: white;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{    border-top: 1px solid transparent;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(226, 226, 226);
+}
+#hero{
+  position: fixed;
+  border: 1px solid transparent;
+    width: 100vw;
+    min-height: 70vh;
+    background-color: black;
+   
+    
+}
+#content{position: relative;
+    margin-top: 70vh;
+   width: 100%;
+   overflow: hidden;
+    min-height: 100vh;
+    background-color: black;
+ 
+}
+.navbar{position: relative;
+    width: 100%;
+    height: -50px;
+    background-color: transparent;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    z-index: 99999999999;
+}
+
+.btn1{
+    margin-top: -.1vh;
+font-weight: 400;
+     font-size: 1vw;
+     background-color: yellow;
+     color: black;
+    
+}
+.btn1:hover{
+    color: white;
+    background-color: black;
+}
+
+#tagi{
+    margin-left: 5vh;
+    font-size: 1.5vw;
+}
+.rocket{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+
+
+#text1{
+    display: flex;
+    padding: 0 3vw;
+    align-items: center;
+    width: 100%;
+    height: 15vh ;
+    
+}
+
+#text2{
+    display: flex;
+    padding: 0 3vw;
+    align-items: center;
+    width: 100%;
+    height: 15vh ;
+   
+}
+#text3{
+    display: flex;
+    padding: 0 3vw;
+    align-items: center;
+    width: 100%;
+    height: 15vh ;
+   
+}
+
+#text1 h1{
+    font-size: 6vw;
+    font-weight: 400;
+}
+#text2 h1{
+    font-size: 6vw;
+    font-weight: 400;
+}#text3 h1{
+    margin-left: 115vh;
+    font-size: 6vw;
+    font-weight: 400;
+}
+
+#line{margin-top: 5vh;
+    margin-left: 6vh;
+    width: 100vh;
+    margin-right: 5vh;
+    height: 1px;
+    background-color: rgb(167, 167, 167);
+    }
+
+    #text4{
+        position: absolute;
+        margin-top: 10vh;
+        margin-left: 170vh;
+        text-transform: uppercase;
+        font-weight: 50;
+        font-size: 15px;
+    }
+
+    #sometext{position: relative;
+        width: 100%;
+        border-top: 1px solid transparent;
+       
+        height: 100vh;
+     
+        background-color: black;
+    }
+    
+#line2{
+    position: absolute;
+    width: 160vh;
+    height: 1px;
+    background-color: rgb(170, 170, 170);
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+#sometext h3{
+   padding: 0 3vw;
+   margin-top: 35vh; 
+   font-size: 2.5vw;
+   font-weight: 400;
+}
+#we{
+    padding: 0 3vw;
+    margin-top: 30vh;
+}
+#we h2{
+    font-size: 3vw;
+    font-weight: 400;
+}
+#bigletter{
+    border-top: 1px solid transparent;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+.big1 h1{
+    margin-top: 5vh;
+    font-size:  22vw;
+    line-height: 38vh;
+    font-weight: 600;
+    padding: 0 3vw;
+    text-transform: uppercase;
+    
+}
+#big2{
+    display: flex;
+    align-items: center;
+}
+#box{margin-top: 15vh;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 0.5vw 1.5vw;
+}
+#box h4{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+#orbitalv{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+#slide{overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.slides{
+position: relative;
+     width: 30vw;
+    height: 100vh;
+    border: 1px solid rgb(179, 179, 179);
+}
+#title{margin-top: 22vw;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+ 
+}
+#title h2{
+    font-weight: 400;
+    font-size: 3vw;
+    color: white;
+    mix-blend-mode: difference;
+}
+#icon{
+    width: 2vw;
+
+    border: 1px solid white;
+    overflow: hidden;
+    position: relative;
+    height: 2vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+#righter{
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#upper{
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    position: absolute;
+    left: 0%;
+    top: 90%;
+
+}
+.slides:hover #icon #righter{
+    margin-left: 1.5vw;
+}
+.slides:hover #icon #upper{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#opening{
+    
+  position: absolute;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) .4s;
+  width: 0%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  background-color: white;
+
+}
+.slides:hover #opening{
+    width: 100%;
+  
+}
+
+.video1{
+
+    width: 100%;
+    height: 100%;
+     
+      display: none;
+  }
+  .video2{
+  
+      width: 100%;
+      height: 100%;
+      
+      display: none;
+  }
+  .video3{
+    
+   
+      width: 100%;
+      height: 100%;
+      
+      display: none;
+  }
+ 
+  #overlayfirst{
+     position: fixed;
+     
+     width: 100%;
+     height: 100%;
+     background-color: red;
+
+   } 
+   .circle{
+     position: absolute;
+    
+     width: 200px;
+     height: 200px;
+     top: 50%;
+     left: 50%;
+     animation: myfirst 10s infinite linear;
+   }  
+   @keyframes myfirst{
+     0%{
+       transform: translate(-50%,-50%) rotate(0deg);
+     }
+     100%{
+       transform: translate(-50%,-50%) rotate(360deg);
+     }
+   }
+
+ 
+
+#word{
+
+    width: 100%;
+    height: 10%;
+    background-color: rebeccapurple;
+}
+ h5{position: absolute;
+    bottom: -5vh;
+    color: black;
+    font-size: .8vw;
+    padding: 0 3vw;
+    font-weight: 400;
+
+}
+.slides:hover  h5{
+    bottom: 5vh;
+    transition: cubic-bezier(0.19, 1, 0.22, 1).5s;
+}
+
+#partner{
+    position: relative;
+    width: 100%;
+    height: 130vh;
+   
+    background-color: white;
+    border-top: 1px solid transparent;
+
+}
+#worddiv{
+    width: 100%;
+
+    
+}
+#worddiv h2{padding: 0 3vw;
+    margin-top: 15vw;
+    font-size: 4vw;
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
+    font-weight: 450;
+}
+
+.partners{
+    margin-top: 20vh;
+    width: 100%;
+position: relative;
+white-space: nowrap;
+overflow-y: auto;
+overflow-x: auto;
+overflow-y: hidden;
+    height: 40vh;
+}
+
+.childs{
+    white-space:pre-line;
+padding: 2vw 3vw;
+    width: 25%;
+    height: 100%;
+    
+display: inline-block;
+
+
+}
+.childs img{
+    margin-bottom: 8vh;
+}
+.childs p{
+    
+    color: rgb(136, 136, 136);
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.partners::-webkit-scrollbar{
+    display: none;
+}
+
+
+#work{position: relative;
+    width: 100%;
+ background-color: rgb(255, 255, 255);
+
+}
+#fwork{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15vw;
+   
+}
+#fwork h1{
+    color: black;
+    font-weight: 400;
+    mix-blend-mode: difference;
+    text-transform: uppercase;
+
+
+}
+#footer{
+    position: relative;
+    width: 100%;
+  height: 100vh;
+ 
+ background-color: black;
+
+
+}
+#fleft{position: absolute;
+    width: 50%;
+    height: 100vh;
+    border-right: 2px solid #333;
+}
+
+#fleft h3{
+    font-size: 3.5vw;
+    color: white;
+    padding: 3vw 11vw;
+    font-weight: 400;
+  
+}
+#fleft p{
+    padding: 2vw;
+    margin-top: -10vh;
+    text-align: center;
+    margin-left: -10px;
+}
+#fleft img{
+      width: 40%;
+      margin-left: 15vw;
+}
+
+input{
+    width: 30vw;
+    height: 3vw;
+    background-color: transparent;
+   border: none;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    border-bottom: 2px solid #333;
+   font-size: 1.1vw;
+  
+}
+
+button{
+    width: 8vw;
+    height: 2.5vw;
+    border-radius: 100px;
+    background-color: transparent;
+    border: none;
+    margin-top: 5vh;
+    margin-left: 40vh;
+    border: 2px solid #444;
+    font-size: 1.4vw;
+}
+
+#fright{
+   position: absolute;
+
+  
+    width: 50%;
+    height: 100vh;
+    left: 50%;
+    
+}
+.tags{
+    display: block;
+}
+
+.tag{position: relative;
+    width: 100%;
+    height: 11vh;
+   border-bottom: 1px solid #555;
+   padding-top: .6vw;
+   cursor: pointer;
+}
+a{
+    font-size: 2.5vw;
+    padding-left: 2.5vw;
+    mix-blend-mode: difference;
+    text-decoration: none;
+   }
+
+ 
+   .openw{
+       position: absolute;
+       background-color: white;
+       width: 100%;
+       height: 0%;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+       }
+
+       .subscribe:hover {
+           background-color: yellow;
+           color: black;
+       }
+
+ .tag:hover .openw{
+ height: 100%;
+} 
+#cards{
+    width: 30vh;
+    height: 50vh;
+    background-color: red;
+}
+.clone{
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 2vw 3vw;
+} 
+
+
+h1{
+    overflow: hidden;
+
+}
+.create{
+    display: inline-block;
+    transform: translateY(150%);
+}
+.create1{
+    display: inline-block;
+    transform: translateY(100%);
+}
+.create2{
+    display: inline-block;
+    transform: translateY(100%);
+}
+.create3{
+    display: inline-block;
+    transform: translateY(100%);
+   
+}
+.create4{
+    display: inline-block;
+    transform: translateY(100%);
+   
+}
+.create5{
+    display: inline-block;
+    transform: translateY(160%);
+   
+}
+#fleft h3{
+    overflow: hidden;
+}
+#fleft p{
+    overflow: hidden;
+}
+
+#worddiv h2{
+    overflow: hidden;
+}
+
+#sometext h3{
+    overflow: hidden;
+}
+#fwork h1{
+    overflow: hidden;
+}
+
+@media(max-width : 500px){
+
+
+ 
+ #line{
+    width: 170px;
+ }
+ #main{
+    overflow: hidden;
+ } 
+
+ .create1{
+ position: absolute;
+ top: -60%;
+ font-size: 5vw;
+    
+ }
+ #line2{
+    width: 99vw;
+ }
+ #we{
+    margin-top: -10%;
+
+ }
+ #sometext{
+    height: 50vh;
+ }
+ #big2{
+    margin-top: -30%;
+ }
+ #bigletter{
+    height: 70vh;
+ }
+#title{
+    position: absolute;
+    top: 30%;
+}
+#title h2{
+    font-size: 4vw;
+}
+.circle{
+    width: 70px;
+}
+.partner1img{
+    width: 70px;
+}
+#partner{
+    height: 70vh;
+}
+
+
+#email{
+   position: absolute;
+   top: 70%;
+   left: -40%;
+   font-size: 10px;
+   
+}
+.worldimg{
+    position: absolute;
+    top: 40%;
+    
+}
+.create5{opacity: 0;
+    
+    margin-top: 30px;
+}
+.create6{
+    font-size: 3vw;
+}
+.subscribe{
+    position: absolute;
+    top: 80%;
+    left: -85%;
+    width: 60px;
+    height: 30px;
+    font-size: 2vw;
+}
+a{
+    font-size: 3vw;
+}
+.clone{
+    font-size: 1.6vw;
+}
+
+
+}
